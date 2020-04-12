@@ -1,7 +1,11 @@
 #include<iostream>
 using namespace std;
 
-float Convert(float);
+float Convert(float TempFer){
+    float TempCel;
+    TempCel = ((TempFer- 32) * 5) / 9;
+    return TempCel;
+}
 
 int main(){
     float TempFer, TempCel;
@@ -14,8 +18,3 @@ int main(){
     return 0;
 }
 
-float Convert(float TempFer){
-    float TempCel;
-    TempCel = ((TempFer- 32) * 5) / 9;
-    return TempCel;
-}
