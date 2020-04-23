@@ -17,25 +17,3 @@ int main(){
     cout << TempCel << endl;
     return 0;
 }
-
-<<<<<<< HEAD
-int main(){
-    float TempFer, TempCel;
-
-   cout << "Please enter the temperature in Fahrenheit: ";
-    cin >> TempFer;
-    TempCel = Convert(TempFer);
-    cout << "\n Here's the temperature in Celsius:";
-    cout << TempCel << endl;
-    return 0;
-=======
-cout << "\n Here's the temperature in Celsius:";
-    cout << TempCel << endl;
-    return 0;
-
-    float Convert(float TempFer){
-    float TempCel;
-    TempCel = ((TempFer- 32) * 5) / 9;
-    return TempCel;
->>>>>>> iss53
-}
